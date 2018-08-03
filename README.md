@@ -1,3 +1,19 @@
+## To Use electron-kidbright
+
+```bash
+git clone https://github.com/chaiwith/electron-kidbright
+cd electron-kidbright
+npm install
+git clone https://github.com/nexpie/kidbrightide
+cd kidbrightide
+npm install
+cd app
+npm install
+cd ..
+cd ..
+npm start
+```
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**
@@ -20,9 +36,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/chaiwith/electron-kidbright.git
+git clone https://github.com/electron/electron-quick-start
 # Go into the repository
-cd electron-kidbright
+cd electron-quick-start
 # Install dependencies
 npm install
 # Run the app
